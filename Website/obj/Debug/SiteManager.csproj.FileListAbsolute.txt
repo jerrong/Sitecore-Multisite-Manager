@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\bin\SiteManager.dll
+C:\inetpub\wwwroot\multisite\Website\bin\SiteManager.pdb
+C:\inetpub\wwwroot\multisite\Website\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\obj\Debug\SiteManager.dll
+C:\inetpub\wwwroot\multisite\Website\obj\Debug\SiteManager.pdb

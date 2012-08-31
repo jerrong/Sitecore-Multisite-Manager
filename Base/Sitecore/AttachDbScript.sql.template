@@ -1,0 +1,42 @@
+USE [master]
+GO
+IF NOT  EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Core')
+BEGIN
+	CREATE DATABASE [@@namespace@@Cms_Core] ON
+	( FILENAME = N'@@data_directory@@\Sitecore.Core.mdf' ),
+	( FILENAME = N'@@txlog_directory@@\Sitecore.Core.ldf' )
+	FOR ATTACH
+END
+GO
+
+IF NOT  EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Master')
+BEGIN
+	CREATE DATABASE [@@namespace@@Cms_Master] ON
+	( FILENAME = N'@@data_directory@@\Sitecore.Master.mdf' ),
+	( FILENAME = N'@@txlog_directory@@\Sitecore.Master.ldf' )
+	FOR ATTACH
+END
+GO
+IF NOT  EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Web')
+BEGIN
+	CREATE DATABASE [@@namespace@@Cms_Web] ON
+	( FILENAME = N'@@data_directory@@\Sitecore.Web.mdf' ),
+	( FILENAME = N'@@txlog_directory@@\Sitecore.Web.ldf' )
+	FOR ATTACH
+END
+GO
+
+USE [@@namespace@@Cms_Core]
+GO
+exec sp_changedbowner "@@username@@"
+GO
+
+USE [@@namespace@@Cms_Master]
+GO
+exec sp_changedbowner "@@username@@"
+GO
+
+USE [@@namespace@@Cms_Web]
+GO
+exec sp_changedbowner "@@username@@"
+GO

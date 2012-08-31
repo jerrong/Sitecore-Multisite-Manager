@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\Devices\bin\Devices.dll
+C:\inetpub\wwwroot\multisite\Website\Devices\bin\Devices.pdb
+C:\inetpub\wwwroot\multisite\Website\Devices\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\Devices\obj\Debug\Devices.dll
+C:\inetpub\wwwroot\multisite\Website\Devices\obj\Debug\Devices.pdb

@@ -1,0 +1,34 @@
+IF EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Core')
+	BEGIN
+		EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = N'@@namespace@@Cms_Core'
+		USE [master]
+		ALTER DATABASE [@@namespace@@Cms_Core] SET OFFLINE WITH ROLLBACK IMMEDIATE
+		DROP  DATABASE [@@namespace@@Cms_Core]
+		PRINT N'Just dropped @@namespace@@Cms_Core'
+	END
+ELSE
+	PRINT N'@@namespace@@Cms_Core was not found'
+
+IF EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Master')
+	BEGIN
+		EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = N'@@namespace@@Cms_Master'
+		USE [master]
+		ALTER DATABASE [@@namespace@@Cms_Master] SET OFFLINE WITH ROLLBACK IMMEDIATE
+		DROP  DATABASE [@@namespace@@Cms_Master]
+		PRINT N'Just dropped @@namespace@@Cms_Master'
+	END
+ELSE
+	PRINT N'@@namespace@@Cms_Master was not found'
+
+IF EXISTS (SELECT * FROM sys.databases WHERE name = N'@@namespace@@Cms_Web')
+	BEGIN
+		EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = N'@@namespace@@Cms_Web'
+		USE [master]
+		ALTER DATABASE [@@namespace@@Cms_Web] SET OFFLINE WITH ROLLBACK IMMEDIATE
+		DROP  DATABASE [@@namespace@@Cms_Web]
+		PRINT N'Just dropped @@namespace@@Cms_Web'
+	END
+ELSE
+	PRINT N'@@namespace@@Cms_Web was not found'
+	
+GO

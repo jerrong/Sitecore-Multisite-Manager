@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\JetStream\bin\JetStream.dll
+C:\inetpub\wwwroot\multisite\Website\JetStream\bin\JetStream.pdb
+C:\inetpub\wwwroot\multisite\Website\JetStream\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\JetStream\obj\Debug\JetStream.dll
+C:\inetpub\wwwroot\multisite\Website\JetStream\obj\Debug\JetStream.pdb

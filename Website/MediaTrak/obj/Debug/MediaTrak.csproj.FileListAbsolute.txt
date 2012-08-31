@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\MediaTrak\bin\MediaTrak.dll
+C:\inetpub\wwwroot\multisite\Website\MediaTrak\bin\MediaTrak.pdb
+C:\inetpub\wwwroot\multisite\Website\MediaTrak\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\MediaTrak\obj\Debug\MediaTrak.dll
+C:\inetpub\wwwroot\multisite\Website\MediaTrak\obj\Debug\MediaTrak.pdb

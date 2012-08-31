@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\multisite\NewsCorp\bin\NewsCorp.dll
+C:\inetpub\wwwroot\multisite\NewsCorp\bin\NewsCorp.pdb
+C:\inetpub\wwwroot\multisite\NewsCorp\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\NewsCorp\obj\Debug\NewsCorp.dll
+C:\inetpub\wwwroot\multisite\NewsCorp\obj\Debug\NewsCorp.pdb
+C:\inetpub\wwwroot\multisite\Website\NewsCorp\bin\NewsCorp.dll
+C:\inetpub\wwwroot\multisite\Website\NewsCorp\bin\NewsCorp.pdb
+C:\inetpub\wwwroot\multisite\Website\NewsCorp\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\NewsCorp\obj\Debug\NewsCorp.dll
+C:\inetpub\wwwroot\multisite\Website\NewsCorp\obj\Debug\NewsCorp.pdb

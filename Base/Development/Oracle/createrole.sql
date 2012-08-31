@@ -1,0 +1,12 @@
+DECLARE 
+  "counter" NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO "counter" FROM DBA_ROLES WHERE ROLE = 'SCROLE';
+  
+  IF "counter" = 0 THEN
+    EXECUTE IMMEDIATE 'CREATE ROLE scRole';
+    EXECUTE IMMEDIATE 'GRANT CREATE session, CREATE table, CREATE view, CREATE procedure, CREATE synonym, CREATE sequence, CREATE TRIGGER TO scRole';
+  END IF;
+END;
+/
+exit

@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\Tim\bin\Tim.dll
+C:\inetpub\wwwroot\multisite\Website\Tim\bin\Tim.pdb
+C:\inetpub\wwwroot\multisite\Website\Tim\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\Tim\obj\Debug\Tim.dll
+C:\inetpub\wwwroot\multisite\Website\Tim\obj\Debug\Tim.pdb

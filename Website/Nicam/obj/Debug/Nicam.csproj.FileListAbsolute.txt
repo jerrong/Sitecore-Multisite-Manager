@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\multisite\Website\Nicam\bin\Nicam.dll
+C:\inetpub\wwwroot\multisite\Website\Nicam\bin\Nicam.pdb
+C:\inetpub\wwwroot\multisite\Website\Nicam\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\multisite\Website\Nicam\obj\Debug\Nicam.dll
+C:\inetpub\wwwroot\multisite\Website\Nicam\obj\Debug\Nicam.pdb
