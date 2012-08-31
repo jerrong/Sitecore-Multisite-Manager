@@ -1,3 +1,0 @@
-DROP USER &1 CASCADE
-/
-exit
