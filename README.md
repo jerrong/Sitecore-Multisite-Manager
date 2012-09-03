@@ -12,3 +12,6 @@ Roadmap
 * Load Balancer Provider Support
 * Event notification for App Pool Resets
 * Admin Screen for monitoring server health
+* Site bound LinkManagers, Pipelines
+* Site Enabled Security Manager Matrix
+
